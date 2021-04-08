@@ -1,0 +1,61 @@
+body {
+  background-color: #000a4c;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+section {
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5); 
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  margin-top: 100px;
+  background-color: white;
+  padding: 15px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+section h1 {
+  font-size: 20px;
+  text-align:center;
+}
+
+section h2 {
+  font-size: 20px;
+  text-align:center;
+}
+
+header {
+  background-image: url('https://media-exp1.licdn.com/dms/image/C4E16AQHqdnTaQXs3aA/profile-displaybackgroundimage-shrink_350_1400/0/1602270820072?e=1622678400&v=beta&t=tB_w77SGBps3lw1jU76KJ7BQApvSDeVu4x1Fv5euvdo');
+  background-size: cover;
+  height: 80px;
+  border-radius: 5px;
+}
+
+div {
+ padding: 15px;
+ border: 3px solid #fa570a;
+ background-color: #cfcfcf;
+ border-radius: 5px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translatey(-50%);
+  border: 8px solid white;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
